@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="youtube_main.css">
+    <style>
+         *{
+            margin: 0%;
+            padding: 0%;
+         }
+         li{
+             list-style-type: none;
+             padding: 24px 0;
+             border-bottom: 1px solid #c7c7c7;
+         }
+         @media screen{
+             div.left{
+                 display:none;
+             }
+         }
+         @media screen and (orientation: landscape){
+             div.left{
+                 display:block;
+                 width:30%;
+                 float:left;
+             }
+             div.right{
+                 width: 70%;
+                 float:right;
+             }
+         }
+        div.content{
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="search_bar">
+        <div id="top_left">
+            <a href=""><div id="tap"><span>탭</span></div></a>
+            <a href=""><div id="youtube_icon"><span>유튜브 아이콘</span></div></a>
+        </div>
+        <div id="top_center">
+            <div id="search">
+            <fieldset>
+                <legend><span>검색</span></legend>
+                <input type="text">
+                <button><a href=""><span>검색</span></a></button>
+            </fieldset>
+            </div>
+            <a href=""><div id="record"><span>음성으로 검색</span></div></a>
+        </div>
+        <div id="top_right">
+            <a href=""><div id="youtube_app"><span>유튜브 앱</span></div></a>
+            <a href=""><div id="setting"><span>설정</span></div></a>
+            <a href=""><div id="login"><span>로그인</span></div></a>
+        </div>
+    </div>
+    <div class="left_bar">
+
+    </div>
+    <div class="category">
+
+    </div>
+    <div class="main">
+
+    </div>
+</body>
+</html>
